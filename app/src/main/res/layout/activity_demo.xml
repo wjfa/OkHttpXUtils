@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.administrator.newsapp.demo.DemoActivity">
+
+
+    <Button
+        android:textAllCaps="false"
+        android:text="OkHttp获取get请求数据"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入用户名"
+        android:id="@+id/edt1" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="请输入密码"
+        android:id="@+id/edt2" />
+
+
+    <Button
+        android:text="OkHttp注册"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/btn2" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f00"/>
+
+
+    <Button
+        android:text="retrofit获取get网络请求数据"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/btn3" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入用户名"
+        android:id="@+id/edt3" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="请输入密码"
+        android:id="@+id/edt4" />
+
+    <Button
+        android:text="利用retrofit注册"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="利用retrofit进行“表单”注册"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn5" />
+
+    <Button
+        android:text="利用retrofit进行“多部分”获取数据"
+        android:textAllCaps="false"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn6" />
+
+</LinearLayout>

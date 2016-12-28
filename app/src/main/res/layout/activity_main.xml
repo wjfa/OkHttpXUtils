@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.administrator.newsapp.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#5ca">
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/back"
+        android:layout_centerVertical="true"
+        android:onClick="onClick"
+        android:background="@drawable/selector_color"
+        android:id="@+id/imgB_home"/>
+
+
+    <TextView
+        android:text="新闻列表"
+        android:textSize="32sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_title" />
+
+
+
+</RelativeLayout>
+
+
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/refresh_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listV_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+
+</LinearLayout>
